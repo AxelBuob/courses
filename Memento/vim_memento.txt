@@ -1,0 +1,115 @@
+VIM MEMENTO
+-----------
+1. Use <H> to go left
+   Use <L> to go right
+   Use <J> to go down
+   Use <H> to go up
+
+2. Type :q! to quit without saving
+   Type :w to write
+   Type :wq to save and quite
+   Type :w FILENAME to save change into a file
+
+3. Press x to delete the character under the cursor
+
+4. Press i to insert test before the cursor
+   Press a to append text after the cursor
+   Press A to append at the end of a line
+   Press o to open a line below
+   Press O to open a line above
+
+5. Press dw to delete to the start of the next word
+   Press de to delete the end of the current word
+   Press d$ to delete to the end of the line
+   
+6. Type 2w to move the cursor two words forward
+   Type 3e to move the cursor to the end of the third word forward
+   Type zero to move to the start of the line
+
+7. Type d2w to delete 2 words
+
+8. Type dd to delete the line
+   Type 2dd to delete two lines
+
+9. Type x to delete the unwanted character
+
+10.Type u to undo the last command
+   Type U to fix a whole line
+   Type CTRL-R to redo the commands
+
+11.Type dd to delete the line and store it
+   Type p to put the line below the cursor
+
+12.Type r to replace the character which should be there
+   Type R to replace more than one character
+
+13.Type ce to change until the end of the word
+   Type c [number] motion(w/$)
+
+14.Type CTRL-G to show your location in the file
+   Press G to move at the end of the file
+   Press gg to move at the start of the file
+   Type the number of the line you want to then G.
+
+15.Type / followed by a phrase to search
+   Type n to search for the same phrase again
+   Type ? to search in the backward direction
+   Type CTRL-O to go back where you came from
+   Type CTRL-I goes forward
+
+16.Type % to find a matching bracket
+   
+17.Type :s/old/new/g to substitute new for old
+   Adding the g flag means to substitute globally in the line
+   :#,#s/old/new/g to change every occurence between 2 lines where # are the line numbers
+   :%s/old/new/g evry occurence in the whole file
+   :%s/old/new/gc add aprompt wheter substitute or not
+
+18.Type :! followed by an external command to execute it
+   Type v motion :w FILENAME to save part of a file
+   Type :r FILENAME to insert the content of a file
+   Type :r !COMMAND to insert the output of a command 
+
+19.Press v then select a text then press y to yank it then  p to put the text 
+   yw yanks one word
+
+20. Type :set ic ignore case option
+        :set noinc to disable ignoring case
+	use \c to ignore case for one search /word\c
+        :set hlsearch :set hls
+	:set nohlsearch to disable highlighting search 
+	:set incsearch :set
+	
+21. HELP
+   Type :help then read the text to find out how it works
+   Press CTRL-W to jump from one window to another
+   Type :help command to find help on just about any subject	
+
+22. COMPLETION
+    Make sure :set nocp
+    Type the start of a command :e
+    Press CTRL-D to see a list of commands that start with e
+    Press TAB to complete the command name to :edit 
+    Now type the start of an existing file name :edit
+    Then press TAB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

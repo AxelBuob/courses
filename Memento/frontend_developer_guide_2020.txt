@@ -1,0 +1,110 @@
+Front end web Developer Guide 2020 - youtube/whatsdev
+======================================================
+
+HTML AND CSS - 100 hrs
+============================
+1. Learn computer science at www.cs50.harvard.edu
+2. Take a look at the industry as a whole - and get ahigh level understanding of all players involved
+3. Go a for a good documentation like Mozilla MDN www.developer.mozilla.org - A book apart collection
+4. Go to your favorite website like google or dribble  and curate all the micro-components you like - a whole sie is too overwhelming
+5. Learn how to build layouts,flexbox, positionning, grid, box model
+6. Process: look for a micro project to build, learn and build, repeat
+7. Responsive design, media-queires, typography, responsive typography
+8. Don't learn framework first - learn languages
+9. You move on when you are comfortable with css fundamentals, positioning, flexbox, grid, animation, media queries etc...
+10. 50% learning 50% building
+
+GITHUB 10-20 hrs
+==================
+1. learn git commad line while you are learning HTML, CSS and javascript
+2. keep pushing on github - a lot of employer have a look at your github profile
+
+JAVASCRIPT - 400 hrs
+===========================
+1. Books : Eloquent javascript https://eloquentjavascript.net/
+	   You don't know javascript https://github.com/getify/You-Dont-Know-JS
+2. solve algorithmic challenges then build projects
+3. dont't quit, fall in love with the pain. until you find the solution - don't give up too easily
+4. start with book or good course, think what's sth small you can write with what you've learned
+5. Major keys : Javascipt dundamentals (data types, conditionals, functions, objects etc...)
+   Build micro components like: todo-lists, navbar hamburger, slides, gallery, side navbar, form logic etc...
+   Ajax, Promises, Async await, es6+
+   Prototypal inheritance, OOP, difference between them
+   Pure functons, functionnal programming, design patterns
+   Go through a f**king book
+6. build small things. a large website like amazon ia combination of small components like: login form, sign up form, navbar, comment, checkout add to cart. Build from scratch
+7. build frontend components without backend using local storage
+8. Learn about different design patterns, why they're important. Constructor module, Prototype, factory, observer, facade, adaptater etc... - Don't touch any framework yet
+9. checklist: build at least 10 micro projects, solve at least 50/100 programming algorithms, understand javascript fundamentals, understand design patterns, and why they are important, don't just make it work, make it riht. then learn webpack at some point.
+
+NODEJS EXPRESS MONGO - 100 hrs
+===============================
+1. you must learn the backend if you want to be a good frontend developer
+2. it's a javascript runtime, not a language/framework/library or whatever. it allows you to write javascript outside of the browser. NodeJs is a program taht contain the v8 interpreter like web browsers. this runtime environnement has extra features added.
+3. learn how to build APIs, API vs REST API, MDN documentation, blog, youtube crash courses, express mongo. build todo list or blog with a database
+4. build at least 10 projects 
+
+REACT - 100hrs
+===================
+1. stop overthinking and debating wich framework is the best, there is no best. you learn one well. 
+2. you can do everything with pure javascript, doesn't mean you should all the time
+3. evrything you have built with javascipr thus far, imlement all of them with react
+4. learn Redux
+
+BEFORE YOU APPLY
+===================
+1. Have a simple yet beautiful portfolio. don't tell me, show me !
+2. Design matters, go to site like behance, dribbble and look at phenomenal design by great UX designers and up your "eye-4-design"
+3. Confidence is a memory of working hard and winning. have a massive work under your belt
+4. 10+ micro projects, 1-2 large project, 100+ algorithmic challenges solved,
+   case studies one or two of your projects where you talk about what you learned, teh journey, teh obstacles, cool things you tried. tell a story (it can be short, hit the point)
+
+JOB GUARANTEE PROCESS
+==============================
+1. apply at least 20 jobs every day. that's 300 in a month. Most people don't apply enough.
+2. Don't worry about not qualifying. Still apply as long as it's somewha similar. You can learn things quickly
+
+
+BOOKS
+======
+Good marketing start with a good product - Steve jobs
+So good they can't ignore you - Call Newport
+
+
+SOLIFY EXPLORE - 100hrs
+===========================
+1. Polish your understanding of CSS and Javascipt
+2. Learn SaSS BEM
+3. Build larger React/Redux projects
+4. Security performance SSR
+5. Serverless is future. GatsbyJS
+6. Learn a new language like clojure, scheme or c++
+7. Learn/build things that excite you
+
+BONUS
+======
+1. unfollow everyone on social media
+2. Disabe all notificaion on you phone except for phone calls
+3. Eat cleaner, sleep, hit the gym
+4. Sacrifice, going out, drinking, vacations, parties
+5. Go to meetups and find like-minded people
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

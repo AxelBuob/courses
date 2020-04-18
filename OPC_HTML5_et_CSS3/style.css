@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: proxima_nova_rg, Helvetica, Arial, Sans-serif;
+}
+
+
+h1,h2,h3,h4,h5 {
+	text-transform: uppercase;
+}
+
+/* HEADER */
+
+header {
+	text-align: center;
+	border-bottom: 5px solid #000;
+	background-color: #ff9ff3;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+}
+
+
+header .initiale {
+	font-size: 7em;
+	font-family: proxima_nova_bl;
+	line-height: 0.7em;
+}
+
+header h1 {
+	margin: 0;
+	font-family: proxima_nova_th;
+	font-size: 1.5em;
+}
+
+
+/* SECTION */
+
+section article {
+	padding-left: 2em;
+}
+
+section article > h1 {
+	font-family: proxima_nova_th;
+	font-size: 1.7em;
+}
+
+ul > li > div > h2 {
+	font-size: 1em;
+	margin: 0;
+	font-family: proxima_nova_bd;
+}
+
+ul > li > div > h2 + p {
+	margin: 0;
+	font-family: proxima_nova_lt;
+}
+
+ul > li > div {
+	margin-bottom: 1em;
+}
+
+.formation > h1 + ul, .experience > h1 + ul {
+	list-style: none;
+	padding: 0;
+}
+
+.detail  {
+	margin-top: 1em;
+}
+
+
+.interets ul,
+.competences ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+
+.interets ul li,
+.competences ul li {
+	display: block;
+	font-size: 4em;
+	margin: 0.2em;
+	text-align: center;
+}
+.interets ul li span.text,
+.competences ul li span.text {
+	display: block;
+	font-size: 0.25em;
+	font-family: proxima_nova_bd;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+	header {
+		width: 30%;
+		position: absolute;
+		top: 0; bottom: 0; left: 0;
+		border-bottom: 0;
+		border-right: 5px solid #000;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+
+	section {
+		width: 70%;
+		position: absolute;
+		top: 0; bottom: 0; right: 0;
+		overflow-x: hidden;
+		overflow: scroll;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	section > .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	section .container article {
+		width: 33%;
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+# GIT MEMENTO
+
+#Create a new repository on the commnd line
+
+echo "# Repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/AxelBuob/repository.git
+git push -u origin master
+
+
+# Push an existing repository form the command line
+git remote add origin https://github.com/AxelBuob/courses.git
+git push -u origin master

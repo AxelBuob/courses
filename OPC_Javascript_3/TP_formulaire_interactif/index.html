@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		body {
+			width: 80%;
+			margin: auto;
+			border: 1px solid #eee;
+		}
+		label {
+			display: block;
+			margin-bottom: 1em;
+		}
+		span.error {
+			background: #eee;
+			padding: 0.3em;
+
+		}
+	
+	</style>
+</head>
+<body>
+
+	<h1>Formulaire intérractif</h1>
+	<form id="form" action="#">
+		<label for="sexe">
+			<input id= "homme" type="radio" name="sexe" value="homme">Homme
+			<input id="femme" type="radio" name="sexe" value="femme">Femme
+		</label>
+		<label for="nom">Nom
+			<input type="text" id="nom">
+		</label>
+		<label for="prenom">Prénom
+			<input type="text" id="prenom">
+		</label>
+		<label for="age">Âge
+			<input type="number" id="age">
+		</label>
+		<label for="pseudo">Pseudo
+			<input type="text" id="pseudo">
+		</label>
+		<label for="password">Mot de passe
+			<input type="password" id="password">
+		</label>
+		<label for="confirm">Mot de passe (confirmation)
+			<input type="password" id="confirm">
+		</label>
+		<label for="pays">Pays
+			<select name="pays" id="pays">
+				<option value="france">France</option>
+				<option value="espagne">Espagne</option>
+				<option value="italie">Italie</option>
+				<option value="royaume-uni">Royaume-Uni</option>
+				<option value="canada">Canada</option>
+				<option value="etats-unis">États-Unis</option>
+				<option value="chine">Chine</option>
+				<option value="japon">Japon</option>
+			</select>
+		</label>
+		<label for="emails">
+			<input id="emails" type="checkbox">Cochez cette case si vous souhaiter recevoir des emails.
+		</label>
+		<label>
+			<input type="submit" value="Envoyer">
+			<input type="reset" value="Effacer">
+		</label>
+	</form>
+<script src="app.js"></script>
+</body>
+</html>
