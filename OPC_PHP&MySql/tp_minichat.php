@@ -10,7 +10,7 @@
 
 <?php
   try {
-    $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8','root','Pho6cai6');
+    $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8','root','password');
   }
   catch(Exception $e) {
       die('Erreur :'. $e->getMessage());

@@ -1,7 +1,7 @@
 <?php
   session_start();
   $admin['name'] = 'root';
-  $admin['password'] = 'Pho6cai6';
+  $admin['password'] = 'password';
   if (!isset($_POST['name']) OR !isset($_POST['password'])) { ?>
     <form action="#" method="post">
       <input type="name" name="name">
