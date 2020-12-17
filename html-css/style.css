@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	font-family: proxima_nova_rg, Helvetica, Arial, Sans-serif;
+	font-family: Helvetica, Arial, Sans-serif;
 }
 
 
@@ -25,13 +25,13 @@ header {
 
 header .initiale {
 	font-size: 7em;
-	font-family: proxima_nova_bl;
+	font-weight: 500;
 	line-height: 0.7em;
 }
 
 header h1 {
 	margin: 0;
-	font-family: proxima_nova_th;
+	font-weight: 300;
 	font-size: 1.5em;
 }
 
@@ -43,7 +43,7 @@ section article {
 }
 
 section article > h1 {
-	font-family: proxima_nova_th;
+	font-weight: 300;
 	font-size: 1.7em;
 }
 
@@ -131,13 +131,3 @@ ul > li > div {
 		width: 33%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
