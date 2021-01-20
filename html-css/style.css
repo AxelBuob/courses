@@ -50,12 +50,12 @@ section article > h1 {
 ul > li > div > h2 {
 	font-size: 1em;
 	margin: 0;
-	font-family: proxima_nova_bd;
+	font-weight: 500;
 }
 
 ul > li > div > h2 + p {
 	margin: 0;
-	font-family: proxima_nova_lt;
+	font-weight: 300;
 }
 
 ul > li > div {
@@ -93,7 +93,7 @@ ul > li > div {
 .competences ul li span.text {
 	display: block;
 	font-size: 0.25em;
-	font-family: proxima_nova_bd;
+	font-weight: 500;
 }
 
 /* MEDIA QUERIES */

@@ -1,0 +1,35 @@
+@import "base.scss";
+
+button {
+  color: inherit;
+  padding: 1em;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+$btn-bgc: #12c2e9;
+
+.btn {
+  background: linear-gradient(to left, #ad5389, #3c1053);
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+}

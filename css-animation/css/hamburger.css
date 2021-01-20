@@ -1,0 +1,46 @@
+/* line 1, ../scss/hamburger.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* line 5, ../scss/hamburger.scss */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+/* line 11, ../scss/hamburger.scss */
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/* line 33, ../scss/hamburger.scss */
+.burger_wrapper {
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* line 42, ../scss/hamburger.scss */
+.burger_wrapper:hover .burger_bar:first-child {
+  transform: translateY(10.9375px) rotate(225deg);
+}
+/* line 45, ../scss/hamburger.scss */
+.burger_wrapper:hover .burger_bar:last-child {
+  transform: translateY(-10.9375px) rotate(-225deg);
+}
+
+/* line 50, ../scss/hamburger.scss */
+.burger_bar {
+  background-color: #000;
+  width: 100%;
+  height: 3.125px;
+  transition: transform 330ms ease-in-out;
+}
+
+/*# sourceMappingURL=hamburger.css.map */

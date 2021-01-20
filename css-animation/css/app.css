@@ -1,0 +1,207 @@
+/* line 2, ../scss/_base.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* line 6, ../scss/_base.scss */
+body {
+  margin: 0;
+  font-family: Helvetica, Tahoma, Verdana, 'Trebuchet MS', Arial;
+  color: #373D3F;
+  font-size: 16px;
+}
+
+/* line 13, ../scss/_base.scss */
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 20, ../scss/_base.scss */
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 26, ../scss/_base.scss */
+  .container {
+    max-width: 960px;
+  }
+}
+/* line 31, ../scss/_base.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 1, ../scss/navbar.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* line 5, ../scss/navbar.scss */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+/* line 12, ../scss/navbar.scss */
+nav .navbar {
+  padding: .5em 1em;
+  border-bottom: 0.5px solid #eee;
+}
+/* line 15, ../scss/navbar.scss */
+nav .navbar_burger {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* line 22, ../scss/navbar.scss */
+nav .navbar_burger_bar {
+  display: block;
+  background-color: #000;
+  width: 100%;
+  height: 3px;
+}
+/* line 28, ../scss/navbar.scss */
+nav .navbar_burger:hover + .navbar_nav {
+  transform: translateX(100%);
+}
+/* line 32, ../scss/navbar.scss */
+nav .navbar_nav {
+  width: 30%;
+  position: absolute;
+  top: 49px;
+  left: -30%;
+  bottom: 0;
+  transition: transform 400ms ease-in-out;
+}
+/* line 39, ../scss/navbar.scss */
+nav .navbar_nav > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: .5px solid #eee;
+}
+/* line 45, ../scss/navbar.scss */
+nav .navbar_nav > ul > li > a {
+  display: block;
+  padding: 1em .5em;
+  text-decoration: 0;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* line 9, ../scss/app.scss */
+button {
+  text-shadow: none;
+  cursor: pointer;
+  color: #00DB93;
+  background-color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  overflow: hidden;
+  padding: 0 1.125rem;
+  border: 1px solid #011c37;
+  border-radius: 2px;
+  font-size: 0.875rem;
+  height: 2.25rem;
+  line-height: 2.125rem;
+  display: inline-block;
+}
+
+/* line 32, ../scss/app.scss */
+button {
+  background-color: rgba(1, 28, 55, 0);
+  transition: transform 450ms, background-color 300ms 150ms;
+}
+/* line 36, ../scss/app.scss */
+button:hover {
+  transform: scale(1.15);
+  background-color: #011c37;
+}
+
+/* line 43, ../scss/app.scss */
+#ease_run:hover + .box-wrapper > .box > #ease {
+  transform: translateX(650px);
+}
+
+/* line 47, ../scss/app.scss */
+#cubic_run:hover + .box-wrapper > .box > #cubic {
+  transform: translateX(650px);
+}
+
+/* line 51, ../scss/app.scss */
+#step_run:hover + .box-wrapper > .box > #step {
+  transform: translateX(650px);
+}
+
+/* line 55, ../scss/app.scss */
+.btn {
+  margin-bottom: 1rem;
+}
+
+/* line 59, ../scss/app.scss */
+.box-wrapper {
+  width: 700px;
+  height: 70px;
+  background-color: #000;
+}
+/* line 63, ../scss/app.scss */
+.box-wrapper .box {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  height: 60px;
+  width: 690px;
+  background-color: #fff;
+}
+/* line 70, ../scss/app.scss */
+.box-wrapper .box .square {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  height: 40px;
+  width: 40px;
+  background-color: green;
+}
+/* line 78, ../scss/app.scss */
+.box-wrapper .box #ease {
+  transition: transform 1000ms ease-in-out;
+}
+/* line 81, ../scss/app.scss */
+.box-wrapper .box #cubic {
+  transition-property: transform;
+  transition-duration: 2000ms;
+  transition-timing-function: cubic-bezier(0, 0.75, 0.08, 1);
+}
+/* line 86, ../scss/app.scss */
+.box-wrapper .box #step {
+  transition: transform 1000ms steps(5, end);
+}
+
+/* line 93, ../scss/app.scss */
+.ball {
+  background-color: #1abc9c;
+  height: 100px;
+  width: 100px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* line 102, ../scss/app.scss */
+#ball_run:hover + #ball {
+  transform: scale(1) rotate(1turn);
+  transition: transform 330ms ease-in-out;
+}
+
+/*# sourceMappingURL=app.css.map */

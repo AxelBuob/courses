@@ -19,6 +19,6 @@
       <p><?php echo $data['contenu']; ?></p>
       <p><a href="blog_commentaires.php?id=<?php echo $data['id']; ?>">Lire la suite</a></p>
     </p>
-  <?php } ?>
+  <?php } $req->closeCursor(); ?>
 </body>
 </html>

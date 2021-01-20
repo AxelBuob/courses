@@ -1,0 +1,60 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+$wrapper-bgc: yellow;
+$wrapper-width: 200px;
+$wrapper-height: $wrapper-width / 2;
+
+
+$bar-bgc: black;
+$bar-width: 100%;
+$bar-height: $wrapper-height / 6;
+
+// BURGER
+.burger_wrapper {
+  cursor: pointer;
+  background-color: $wrapper-bgc;
+  height: $wrapper-height;
+  width: $wrapper-width;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &:hover {
+    .burger_bar:first-child {
+      transform: scaleX(1);
+    }
+    .burger_bar:last-child {
+      transform: scaleX(1);
+    }
+  }
+}
+
+.burger_bar {
+  background-color: $bar-bgc;
+  width: $bar-width;
+  height: $bar-height;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}

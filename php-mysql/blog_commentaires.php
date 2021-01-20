@@ -18,12 +18,13 @@
   <h1><?php echo $data['titre']; ?></h1>
   <p><em><?php echo $data['date_creation']; ?></em></p>
   <p><?php echo $data['contenu']; ?></p>
+  <?php $billet->closeCursor(); ?>
   <div>
     <h2>Commentaires</h2>
     <?php while($data = $commentaires->fetch()) { ?>
       <p><?php echo $data['commentaire']; ?></p>
       <p><em><?php echo $data['auteur']; ?></em></p>
-    <?php } ?>
+    <?php } $commentaires->closeCursor(); ?>
   </div>
 </body>
 </html>

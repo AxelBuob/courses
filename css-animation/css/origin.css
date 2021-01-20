@@ -1,0 +1,59 @@
+/* line 1, ../scss/origin.scss */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/* line 5, ../scss/origin.scss */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* line 10, ../scss/origin.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* line 14, ../scss/origin.scss */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+/* line 20, ../scss/origin.scss */
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/* line 35, ../scss/origin.scss */
+.burger_wrapper {
+  cursor: pointer;
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* line 44, ../scss/origin.scss */
+.burger_wrapper:hover .burger_bar:first-child {
+  transform: scaleX(1);
+}
+/* line 47, ../scss/origin.scss */
+.burger_wrapper:hover .burger_bar:last-child {
+  transform: scaleX(1);
+}
+
+/* line 53, ../scss/origin.scss */
+.burger_bar {
+  background-color: black;
+  width: 100%;
+  height: 16.66667px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+/*# sourceMappingURL=origin.css.map */

@@ -1,0 +1,105 @@
+@import "base.scss";
+@import "navbar.scss";
+
+$cavendish: #FFE01B;
+$peppercorn: #241C15;
+$parsnip: #EFEEEA;
+
+
+button {
+  text-shadow: none;
+  cursor: pointer;
+  color: #00DB93;
+  background-color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  overflow: hidden;
+  padding: 0 1.125rem;
+  border: 1px solid rgba(1,28,55,1);
+  border-radius: 2px;
+  font-size: 0.875rem;
+  height: 2.25rem;
+  line-height: 2.125rem;
+  display: inline-block;
+}
+
+$bg-start: rgba(1,28,55,0);
+$bg-end: rgba(1,28,55,1);
+
+button {
+  background-color: $bg-start;
+  transition: transform 450ms, background-color 300ms 150ms;
+  // transition-delay: 0, 150ms;
+  &:hover {
+    transform: scale(1.15);
+    background-color: $bg-end;
+  }
+}
+
+
+#ease_run:hover + .box-wrapper > .box > #ease {
+    transform: translateX(650px);
+}
+
+#cubic_run:hover + .box-wrapper > .box > #cubic {
+    transform: translateX(650px);
+}
+
+#step_run:hover + .box-wrapper > .box > #step {
+    transform: translateX(650px);
+}
+
+.btn {
+  margin-bottom: 1rem;
+}
+
+.box-wrapper {
+  width: 700px;
+  height: 70px;
+  background-color: #000;
+  .box {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 60px;
+    width: 690px;
+    background-color: #fff;
+    .square {
+      position: relative;
+      top: 10px;
+      left: 0px;
+      height: 40px;
+      width: 40px;
+      background-color: green;
+    }
+    #ease {
+      transition: transform 1000ms ease-in-out;
+    }
+    #cubic {
+      transition-property: transform;
+      transition-duration: 2000ms;
+      transition-timing-function: cubic-bezier(0, 0.75, 0.08, 1);
+    }
+    #step {
+      transition: transform 1000ms steps(5,end);
+    }
+  }
+}
+
+
+.ball {
+  background-color: #1abc9c;
+  height: 100px;
+  width: 100px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+#ball_run:hover + #ball {
+  transform: scale(1) rotate(1turn);
+  transition: transform 330ms ease-in-out;
+}
